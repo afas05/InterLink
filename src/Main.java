@@ -4,7 +4,11 @@
 public class Main {
 
     public static void main(String[] args) {
-        InterLink link = new InterLink();
-        System.out.println(link.getName()+" "+link.getLocation()+" "+link.getDevelopers());
+
+        ItCompany link = new InterLink();
+        System.out.println(link.getName() + " " + link.getLocation() + " " + link.getWorkers());
+
+        ItCompany anotherComp = new AnotherItCompany("AnotherComp", 12);
+        System.out.println(anotherComp.getName() + " " + anotherComp.getLocation() + " " + anotherComp.getWorkers());
     }
 }

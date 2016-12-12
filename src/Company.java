@@ -3,10 +3,10 @@
  */
 public interface Company {
 
-    public void setName(String name);
-    public String getName();
-    public void setLocation(String location);
-    public String getLocation();
-    public void setDevelopers(int developers);
-    public int getDevelopers();
+    public abstract void setName(String name);
+    public abstract String getName();
+    public abstract void setLocation(String location);
+    public abstract String getLocation();
+    public abstract void setWorkers(int developers);
+    public abstract int getWorkers();
 }

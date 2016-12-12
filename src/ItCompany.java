@@ -15,7 +15,7 @@ public abstract class ItCompany implements Company {
         this.location = location;
     }
 
-    public void setDevelopers(int developers) {
+    public void setWorkers(int developers) {
         this.developers = developers;
     }
 
@@ -30,7 +30,7 @@ public abstract class ItCompany implements Company {
     }
 
     @Override
-    public int getDevelopers() {
+    public int getWorkers() {
         return developers;
     }
 }
